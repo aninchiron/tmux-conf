@@ -1,0 +1,14 @@
+[user]
+	name = xichengh
+	email = xicheng100@163.com
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	pl = pull
+	ps = push
+	br = branch
+	cl = clone
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	allfork = log --graph --all --date=iso --pretty=format:"%C(yellow)%h%Creset-%Cred%d%Creset%Cgreen%an%m%ae%Creset%n%s%n%cr%e%ad"
